@@ -12,18 +12,16 @@ Hybrid algorithms—especially those combining Zstd with LZ4HC or Brotli—demon
 ## Repository Contents
 
 ```text
+
 research-hindi-compression/
-├── paper/
-│   └── Final_Paper.pdf       # or Final_Paper.docx / .tex
-├── code/
-│   └── [compression and evaluation scripts]
-├── data/
-│   ├── small/                # sample small dataset
-│   ├── medium/               # sample medium dataset
-│   └── large/                # sample large dataset
-├── results/
-│   ├── efficiency_scores.xlsx
-│   └── plots/                # generated charts & figures
+├── paper/                # Final paper and appendix
+│   ├── Final_Paper.docx
+│   └── All_Algorithms_Performance_Metrics.docx
+├── code/                 # Compression and evaluation scripts
+├── data/                 # Sample Hindi text datasets: small, medium, large
+├── results/              # Final results summary and analysis with graphs/tables
+│   └── Final_Results_Analysis.docx
+
 
 ## Keywords
 Hindi text compression, lossless compression, hybrid algorithms, Zstd, LZ4HC, LZMA, Brotli, Bzip2, compression ratio, decompression speed, performance evaluation
