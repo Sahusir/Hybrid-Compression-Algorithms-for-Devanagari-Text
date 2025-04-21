@@ -36,27 +36,42 @@ research-hindi-compression/
 ├── README.md             # Project description and usage instructions
 
 ## How to Replicate Results
-Install Dependencies
-Ensure Python 3.8+ is installed. Then run:
 
-pip install lzma zstandard brotli bz2file lz4
+# To replicate the results from this project, follow the steps below:
 
-Navigate to the Code Folder
+1. Clone or Download the Repository
+# Clone the repository using Git:
+git clone https://github.com/your-username/Hybrid-Compression-Algorithms-for-Devanagari-Text.git
+# Alternatively, you can download the repository as a .zip file from GitHub and extract it.
 
+2. Ensure the Folder Structure Is Correct
+After cloning or downloading, make sure your directory structure looks like this:
+/Hybrid-Compression-Algorithms-for-Devanagari-Text
+├── code/
+├── data/
+│   ├── Small Hinditextfile.txt
+│   ├── medium hindi textfile.txt
+│   └── large hindi textfile.txt
+├── paper/
+│   └── All_Algorithms_Performance_Metrics.docx
+└── README.md
+3. Install Dependencies
+# Ensure that Python 3.8+ is installed on your system.
+
+# Install required Python packages:
+pip install pandas lzma zstandard brotli bz2file lz4
+
+4. Run the Compression Script
+# Navigate to the code/ folder:
 cd code/
-Run Any Hybrid or Standard Compression Script
-Example:
-# Run Zstd + LZ4HC hybrid compression
-python zstd+lz4hc_pipeline.py
+
+# Run the compression script:
+python zstd+lzma pipeline.py
 
 
-## Output Includes:
+5. Results
+After running the script, the compression and decompression results will be output, including metrics like compression ratio, compression speed, decompression speed, and entropy.
 
-1.Compression Ratio
-
-2. Compression Speed
-
-3. Decompression Speed
 
 
 ## Compare Results:
