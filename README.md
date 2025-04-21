@@ -37,7 +37,7 @@ research-hindi-compression/
 
 ## How to Replicate Results
 
-# To replicate the results from this project, follow the steps below:
+ To replicate the results from this project, follow the steps below:
 
 1. Clone or Download the Repository
 Clone the repository using Git:
