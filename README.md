@@ -40,9 +40,9 @@ research-hindi-compression/
 # To replicate the results from this project, follow the steps below:
 
 1. Clone or Download the Repository
-# Clone the repository using Git:
+Clone the repository using Git:
 git clone https://github.com/your-username/Hybrid-Compression-Algorithms-for-Devanagari-Text.git
-# Alternatively, you can download the repository as a .zip file from GitHub and extract it.
+ Alternatively, you can download the repository as a .zip file from GitHub and extract it.
 
 2. Ensure the Folder Structure Is Correct
 After cloning or downloading, make sure your directory structure looks like this:
@@ -56,16 +56,16 @@ After cloning or downloading, make sure your directory structure looks like this
 │   └── All_Algorithms_Performance_Metrics.docx
 └── README.md
 3. Install Dependencies
-# Ensure that Python 3.8+ is installed on your system.
+ Ensure that Python 3.8+ is installed on your system.
 
-# Install required Python packages:
+ Install required Python packages:
 pip install pandas lzma zstandard brotli bz2file lz4
 
 4. Run the Compression Script
-# Navigate to the code/ folder:
+ Navigate to the code/ folder:
 cd code/
 
-# Run the compression script:
+ Run the compression script:
 python zstd+lzma pipeline.py
 
 
