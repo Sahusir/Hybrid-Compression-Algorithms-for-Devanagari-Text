@@ -51,10 +51,11 @@ def hybrid_decompress(input_file, output_file):
     
     return input_file, decompressed_size, decompression_time, decompression_speed, decompressed_entropy
 
-# File Paths
-short_term_file = r"C:\Users\mukes\OneDrive\Desktop\testfile folder\small hinditext.txt"
-medium_term_file = r"C:\Users\mukes\OneDrive\Desktop\testfile folder\hindtext.txt"
-long_term_file = r"C:\Users\mukes\OneDrive\Desktop\testfile folder\large hindi text.txt"
+# === File Paths (relative to project root) ===
+short_term_file = "data/Small Hinditextfile.txt"
+medium_term_file = "data/medium hindi textfile.txt"
+long_term_file = "data/large hindi textfile.txt"
+
 
 # Output Paths
 short_output = short_term_file + ".hybrid_compressed"
