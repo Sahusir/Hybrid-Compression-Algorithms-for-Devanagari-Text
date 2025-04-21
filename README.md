@@ -42,6 +42,7 @@ research-hindi-compression/
 1. Clone or Download the Repository
 Clone the repository using Git:
 git clone https://github.com/your-username/Hybrid-Compression-Algorithms-for-Devanagari-Text.git
+
  Alternatively, you can download the repository as a .zip file from GitHub and extract it.
 
 2. Ensure the Folder Structure Is Correct
